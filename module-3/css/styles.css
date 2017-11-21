@@ -27,10 +27,9 @@ hr{
      background-color: gray;
      height: 1px;
 }
-.center
-{
+.center{
     margin-bottom: 45px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .down{
     margin-top: 45px;
@@ -68,6 +67,11 @@ p,span,li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
 }
+.OUR-PRINCEPLES{
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
 
 
 
