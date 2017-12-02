@@ -1,0 +1,142 @@
+html{
+    height: 100%;
+}
+body{
+    background-size: 100%;
+    height: 100%;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+
+}
+.image{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.first-box{
+    margin-top: 115px;
+    margin-left: 65px;
+    height: 550px;
+    width: 650px;
+    float: left;
+}
+.first-sidebar{
+    margin-top: 115px;
+    width: 230px; 
+    height: 550px;
+    float: left;
+    margin-left: 15px;
+}
+.second-box{
+    margin-top: 50px;
+    margin-left: 65px;
+    clear: left;
+    width: 650px;
+    height: 350px;
+    float: left;
+}
+.first-list{
+    margin-left: -35px;
+    margin-top: 30px;
+    margin-right: 40px;
+    float: left;
+
+}
+.second-list{
+    margin-top: 40px;
+}
+.second-sidebar{
+    margin-top: 50px;
+    width: 225px;
+    float: left;
+    margin-left: 25px;
+}
+.wrapper{
+    background-color: white;
+    width: 1026px;
+    height: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text{
+    background-color: #fcfafa;
+    text-align: center;
+    border: 1px solid #dfdcdc;
+    margin-left: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #263555;
+}
+span::before{
+    content: "\201c";
+    color: navy;
+}
+span::after{
+    content: "\201d";
+    color: navy;
+}
+.arrow::before{
+    content: "\2192";
+    color: #6bade2;
+    margin-right: 13px;
+}
+.arrow{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+h2{
+    font-family: Pathway Gothic One;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+h2,h3{
+    color: #263555;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+p,li,span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.author{
+    text-align: center;
+}
+hr{
+    border: none;
+    width: 90%;
+    align-content: center;
+    background-color: #dedbdb;
+    height: 1px;
+}
+li{
+    list-style: none;
+}
+.ball-one::before{
+    content: "\2776";
+    margin-right: 10px;
+    font-size: 30px;
+    color: #6bade2;
+    margin-left: -35px;
+}
+.ball-two::before{
+    content: "\2777";
+    margin-right: 10px;
+    font-size: 30px;
+    color: #6bade2;
+    margin-left: -35px;
+}  
+.ball-three::before{
+    content: "\2778";
+    margin-right: 10px;
+    font-size: 30px;
+    color: #6bade2;
+    margin-left: -35px;
+}    
+  
