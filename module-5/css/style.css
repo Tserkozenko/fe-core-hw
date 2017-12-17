@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu{
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 45px;
+}
+.menu__item{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+}
+.menu__item:first-child{
+    margin-left: -60px;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    margin-top: -60px;
+    list-style: none;
+    line-height: 17px;
+    padding: 5px 5px 5px 5px;
+}
+.submenu:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #ffffff transparent;
+    top: -5px;
+    left: 20px;
+}
+.menu__item:hover> .submenu{
+    display: block;
+    background-color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: -3px;
+}
+.menu__item:hover> .submenu__item{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+a:hover{
+    color: #263555;
+}
+.menu__item.logo{
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 75px;
+    font-family: 'Dorsa', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #263555;
+}
+.link{
+    color: #263555;
+    font-size: 17px;
+}
+.wrapper{
+    width: 1024px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 140vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.places{
+    padding: 20px;
+}
+.destinations{
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 23px;
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+.places{
+    position: relative;
+}
+.first-descr{
+    position: absolute;
+    text-transform: uppercase;
+    top: 40%;
+    left: 60px;
+    color: #263555;
+    background-color: #ffffff;
+    font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding: 10px;
+}
+.next-descr{
+    position: absolute;
+    text-transform: uppercase;
+    top: 47%;
+    left: 60px;
+    color: #ffffff;
+    background-color: #38afe5;
+    font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 10px;
+}
+.slider{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: #38afe5;
+    border: none;
+    outline: none;
+    left: 95px;
+    top: 75%;
+
+}
+.slider::before{
+    content: "\2190";
+    color: #ffffff;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.slider::after{
+    content: "\2192";
+    color: #ffffff;
+    font-size: 20px;
+}
+.destinations{
+    position: relative;
+}
+.description1{
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: 63px;
+    width: 45%;
+    height: 270px;
+    padding: 0px 10px 0px 10px;
+    background-color: #193149;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: justify;
+}
+.details{
+    width: 60px;
+    height: 20px;
+    background-color: #f9f6fc;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    float: right;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(255,255,255,1);
+}
+.destinations:hover .description1{
+    display: block;
+}
+span{
+    display: block;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+.scroller{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #38afe5;
+    border: none;
+    outline: none;
+    top: 710px;
+    right: 265px;
+    transform: rotate(90deg);
+    font-size: 20px;
+}
+.scroller::before{
+    content: "\2039";
+    color: #ffffff; 
+}
